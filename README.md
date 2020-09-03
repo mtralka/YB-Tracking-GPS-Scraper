@@ -17,18 +17,16 @@ Both of these are publicaly visible in the URL of a ship's webmap interface.
 
 ### Program Outputs
 
-	point_identifiers.json
+- point_identifiers.json
+ 	master list of route point-identifiers. Does **not** contain Lat / Lng or other data points
 
-master list of route point-identifiers. Does **not** contain Lat / Lng or other data points
 
+- full_route.geojson
 
-	full_route.geojson
-
-All route points with the following variables:
+	All route points with the following variables:
 	
-	latFormatted, altitude, datetime, temp, at, lng, tz, lngFormatted, course, , lat, speed])
-	*availability may vary by GPS unit*
-
+		latFormatted, altitude, datetime, temp, at, lng, tz, lngFormatted, course, , lat, speed])
+		*availability may vary by GPS unit*
 
 ### Required Python Libraries
 
