@@ -18,6 +18,7 @@ Both of these are publicaly visible in the URL of a ship's webmap interface.
 ### Program Outputs
 
 - point_identifiers.json
+
  	master list of route point-identifiers. Does **not** contain Lat / Lng or other data points
 
 
